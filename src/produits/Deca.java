@@ -1,9 +1,14 @@
 package produits;
 
-public class Sumatra extends Boisson{
+public class Deca extends Boisson{
+
+    @Override
+    public String getDescription() {
+        return "Deca";
+    }
 
     @Override
     public double cout() {
-        return super.cout();
+        return 5;
     }
 }

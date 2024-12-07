@@ -1,4 +1,8 @@
 package produits;
 
-public class Boisson {
+public abstract class Boisson {
+    private String description;
+
+    public abstract String getDescription();
+    public abstract double cout();
 }
