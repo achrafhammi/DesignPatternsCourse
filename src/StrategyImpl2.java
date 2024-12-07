@@ -1,6 +1,6 @@
-public class StrategyImpl1 implements Strategy {
+public class StrategyImpl2 implements Strategy {
     @Override
     public void operationStrategy() {
-        System.out.println("++++++ Strategy 1+++++++");
+        System.out.println("++++++ Strategy 2+++++++");
     }
 }
